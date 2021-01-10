@@ -7,3 +7,6 @@ the contour of the armor module (the small rectangle) will always get added to b
 + 6) Match the desired armor module with the arrow panel according to the hierarchical relationship.
 + 7) Feed the center coordinate of the armor module to the Kalman Filter for prediction.
 
+Additionally, the program will take the first frame for template matching to select the region of interest (ROI)(focus on the power rune only), which can increase the efficiency.
+
+Possible improvements: Get the precise measurement of the robot and the shooting environment for better parameter-tuning.
